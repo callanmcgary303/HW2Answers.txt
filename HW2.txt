@@ -1,14 +1,14 @@
-1.32 put a method in the class and use the code: System.out.println(ìnameî);
+1.32 put a method in the class and use the code: System.out.println(‚Äúname‚Äù);
  
-1.33 public class Send
+1.33** public void Send
 {public static void main (String {} args)}
  
-1.34 int Average (int a number)
-{public static void main (String [] args}
+1.34** public int Average (int x, int y)
+{public static void main (String [] args} 
  
 1.35 the book is a class but it has the objects of; BlueJ, 666 pages, textbook, color (blue)
  
-1.36 Yes an object can have several different classes to simplify your code
+1.36 Yes an object can have several different classes to simplify your code like using many primitive data types within the object 
  
 2.6 public labClass Student
 { inner part of class }
@@ -16,24 +16,22 @@
 2.11 methods in a class are always kept in () while the two features of the constructor is that they can be private and initialize variables also the constructors must be the same as the class and they do not return any value. 
  
 2.17 private int status;
-{ Ö} ??? honestly i'm not quite sure what to do here
+{ ‚Ä¶} 
  
 2.21 public Pet (String petsName)
 {name=name+petsName;} 
  
 2.22 public Date(string month, int day, int year)
  
-2.23 they both return the object state by returning the value of the stored field variable. The methods are specific like ìgetPriceî gets the price of the ticket and ìgetBalanceî performs a different function because it includes a different method to use the if/else function 
+2.23 they both return the object state by returning the value of the stored field variable. The methods are specific like ‚ÄúgetPrice‚Äù gets the price of the ticket and ‚ÄúgetBalance‚Äù performs a different function because it includes a different method to use the if/else function 
  
 2.26 private int Total;
 { getTotal();}
  
 2.28 printTicket includes a different method of System.out.println so is can display a text on the terminal/print the ticket for the customer. The getPrice method uses a return field to get an int
  
-2.29 *****i'm a little lost on this one and am not sure if i'm thing about it right*****  
-Yes, both insertMoney and printTicket have return statements related to the if/else function so depending on the input will determine what method is returned. It is this way because they are performing completely different tasks. 
+2.29 *They do not have a return statement because they are doing something that does not require anything that is needed to be returned. Because both headers have ‚Äúvoid‚Äù  this suggest there is nothing to return. 
  
-??? I do not understand the last part of this question???
 2.33 public void increase (int points);
 { return=score+(int points);}
  
@@ -44,7 +42,7 @@ Yes, both insertMoney and printTicket have return statements related to the if/e
 {price=cost; 
 balance=0; 
 total=0; { prompt return void;
-System.out.println (ìplease insert correct amount of moneyî);
+System.out.println (‚Äúplease insert correct amount of money‚Äù);
  
 2.41 
 public void printTicket()
@@ -64,4 +62,3 @@ public void printTicket()
             System.out.println("Please insert the correct amount of money");
                     
         }
- 
